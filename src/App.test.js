@@ -8,7 +8,7 @@ describe('React Step 1 Tests', () => {
   });
 
   const wrapper = shallow(<App />);
-  it('contains a TutorialHeader', () => {
-    expect(wrapper.find('TutorialHeader').length).toBe(1);
+  it('contains a PageHeader', () => {
+    expect(wrapper.find('PageHeader').length).toBe(1);
   });
 });
